@@ -1,0 +1,39 @@
+{
+    "name": "chat-peer-connection",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "bufferutil": "^4.0.6",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "express": "^4.18.1",
+        "heroku": "^7.60.2",
+        "heroku-cli": "^7.0.9",
+        "javascript-build-essentials": "^1.0.0",
+        "nodemon": "^2.0.18",
+        "peer": "^0.6.1",
+        "request": "^2.79.0",
+        "save": "^2.5.0",
+        "simple-peer": "^9.11.1",
+        "socket.io": "^4.5.1",
+        "socket.io-client": "^4.5.1",
+        "utf-8-validate": "^5.0.9",
+        "webpack-node-externals": "^3.0.0",
+        "xss": "^1.0.13"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GaneshKoushik313/chat-peer-connection.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GaneshKoushik313/chat-peer-connection/issues"
+    },
+    "homepage": "https://github.com/GaneshKoushik313/chat-peer-connection#readme"
+}
