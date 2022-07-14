@@ -9,7 +9,6 @@ const port = process.env.PORT || "8000";
 const peerServer = ExpressPeerServer(server, {
     proxied: true,
     debug: true,
-    port: 8000,
     path: '/',
     ssl: {}
 });
