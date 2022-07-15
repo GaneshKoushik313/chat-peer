@@ -7,10 +7,8 @@ const { ExpressPeerServer } = require('peer');
 const port = process.env.PORT || "8000";
 
 const peerServer = ExpressPeerServer(server, {
-    proxied: true,
     debug: true,
-    path: '/',
-    ssl: {}
+    path: "/",
 });
 
 app.use(peerServer);
